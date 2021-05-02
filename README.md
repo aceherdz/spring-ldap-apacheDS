@@ -25,8 +25,7 @@ plantilla/ejemplo base de autenticacion ldap.
    ![alt text](https://github.com/aceherdz/spring-ldap-apacheDS/blob/main/readmeimg/06.png?raw=true)
    ![alt text](https://github.com/aceherdz/spring-ldap-apacheDS/blob/main/readmeimg/07.png?raw=true)
    - usuario y clave por defecto (https://directory.apache.org/apacheds/basic-ug/1.4.2-changing-admin-password.html)
-     - uid=admin,ou=system
-     - secret
+     - uid=admin,ou=system / secret
    ![alt text](https://github.com/aceherdz/spring-ldap-apacheDS/blob/main/readmeimg/08.png?raw=true)
    - deberia verse el arbol del directorio : 
    ![alt text](https://github.com/aceherdz/spring-ldap-apacheDS/blob/main/readmeimg/09.png?raw=true)
@@ -53,3 +52,6 @@ plantilla/ejemplo base de autenticacion ldap.
    - el apache directory exije incluir un primer usuario al grupo, en el parametro uniqueMember agregamos el usuario que creamos en el paso anterior.
    ![alt text](https://github.com/aceherdz/spring-ldap-apacheDS/blob/main/readmeimg/19.png?raw=true)
    ![alt text](https://github.com/aceherdz/spring-ldap-apacheDS/blob/main/readmeimg/20.png?raw=true)
+
+
+*Este ejemplo esta basado en el ejemplo del sitio de spring -> https://spring.io/guides/gs/authenticating-ldap/*
